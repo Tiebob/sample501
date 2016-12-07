@@ -6,4 +6,14 @@
  * Time: 下午 03:40
  */
 
-print ' 我是保太';
+/**
+ * 打招呼
+ * 
+ * @param string $name 人名
+ * 
+ */ 
+function sayhello( $name = ''){
+    if( $name=='') return false;
+
+    print 'Hello, ' . $name;
+}
