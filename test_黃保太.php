@@ -6,4 +6,6 @@
  * Time: 下午 03:40
  */
 
-print ' 我是保太';
+function sayhello(){
+    print 'Hello';
+}
